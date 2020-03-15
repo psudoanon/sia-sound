@@ -1,0 +1,21 @@
+{
+  "name": "music-backend",
+  "version": "1.0.0",
+  "description": "upload mp3 files to siasky and generate sharable link webpage",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "@nebulous/skynet": "^1.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5"
+  }
+}
